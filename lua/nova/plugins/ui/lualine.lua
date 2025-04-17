@@ -9,7 +9,7 @@ return {
 				return vim.fn.winwidth(0) > 80
 			end
 
-			local diagnostic = require("ide.utilities.diagnostic")
+			local diagnostic = require("nova.utils.diagnostic")
 			local colors = require("nova.settings.highlights.colors")
 
 			local hl = function(group, bg, fg, gui)
